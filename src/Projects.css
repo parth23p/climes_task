@@ -1,0 +1,58 @@
+.title__text{
+    font-size: x-large;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif !important;
+    justify-content: center;
+    text-align: center !important;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(90.07deg, #31005B -2.87%, #9E80B2 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.border__rounded{
+    border-radius:16px;
+    border:none;
+}
+
+.mb-2{
+position: absolute;
+  top:140px;
+
+}
+.font__small{
+  font-size: 13px;
+  color: #31005B;
+  font-weight: bold;
+}
+
+.learn__more{
+  color:#6800c2;
+  text-decoration: underline;
+  font-weight: 600;
+  /* padding: auto; */
+  font-size: 13px;
+  /* margin:auto; */
+}
+.cardBody__break{
+  height:1px;
+  border-top:1px solid #ACACAC;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+.text__purple{
+  color:#31005B;  
+}
+
+.font__bold{
+  font-weight: bold;
+}
+
+.contribute__project{
+  background-color:#D6CCDE;
+  color: #6800C2;
+  border-radius: 22px;
+  font-size: 14px;
+  font-weight:bolder !important;
+
+}

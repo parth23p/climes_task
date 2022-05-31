@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+.img__text{
+    position: absolute;
+    bottom: 5px;
+    right: 177px;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif !important;
+    justify-content: center;
+    text-align: center !important;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(90.07deg, #31005B -2.87%, #9E80B2 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* -text-fill-color: transparent;    */
+}
+
+.flight__search{
+    display: flex;
+    align-items: center;
+    /* background-color: #f6f6f6; */
+    height: 52px;
+    padding: 10px;
+}
+
+.flight__searchContainer{
+    display:flex;
+    align-items: center;
+    background-color:white;
+    width:100%;
+    height: 46px;
+    border-radius:5px;
+    border:1px solid lightgray;
+}
+
+.flight__searchContainer > input[type=text]{
+    border:none !important;
+    outline-width:0px;
+    margin-left :10px;
+}
+
+.calculate__emissions,.calculate__emissions:hover{
+    background-color: white !important;
+    color: #3c0164;
+    font-size:14px;
+    border-radius:25px;
+    border:1px solid #3c0164;
+    margin:4px 10px!important;
+    font-weight: 900;
+  
+}
+.btn-light{
+    background-color: #f5f2f7;
+}
